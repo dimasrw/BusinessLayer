@@ -1,0 +1,1 @@
+nuget pack ../src/BusinessLayer.Model/BusinessLayer.Model.csproj -Prop Configuration=Release

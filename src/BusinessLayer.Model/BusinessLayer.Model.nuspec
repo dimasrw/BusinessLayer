@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BusinessLayer</id>
+    <version>1.0.0</version>
+    <authors>GosuDev</authors>
+    <owners>GosuDev</owners>
+    <projectUrl>https://github.com/gosudev/BusinessLayer</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Business Layer Helper</description>
+    <copyright>Copyright 2018</copyright>
+    <tags>Business Core BusinessLayer</tags>
+  </metadata>
+</package>
