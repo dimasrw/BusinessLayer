@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{149045D4-8A7C-4974-A71F-BFE27A4F7AF3}</ProjectGuid>
+    <ProjectGuid>{0553EE22-7406-4F06-B58E-F655C56FCE07}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BusinessLayer.Model</RootNamespace>
-    <AssemblyName>BusinessLayer.Model</AssemblyName>
+    <RootNamespace>BusinessLayer.Core</RootNamespace>
+    <AssemblyName>BusinessLayer.Core</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,15 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusinessOperationResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\RepositoryOperationResult.T.cs" />
-    <Compile Include="Service\ServiceOperationResult.T.cs" />
-    <Compile Include="UnitOfWork\IUnitOfWork.cs" />
-    <Compile Include="UnitOfWork\UnitOfWorkOperationResult.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusinessOperationResult.T.cs" />
+    <Folder Include="Extensions\Collections\" />
+    <Folder Include="Extensions\Persistance\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
