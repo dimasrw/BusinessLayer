@@ -51,11 +51,5 @@
   <ItemGroup>
     <Folder Include="Extensions\Persistance\" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BusinessLayer.Model\BusinessLayer.Model.csproj">
-      <Project>{149045d4-8a7c-4974-a71f-bfe27a4f7af3}</Project>
-      <Name>BusinessLayer.Model</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

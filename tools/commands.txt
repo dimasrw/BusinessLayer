@@ -1,1 +1,2 @@
 nuget pack ../src/BusinessLayer.Model/BusinessLayer.Model.csproj -Prop Configuration=Release
+nuget pack ../src/BusinessLayer.Core/BusinessLayer.Core.csproj -Prop Configuration=Release
