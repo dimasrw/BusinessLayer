@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="BusinessOperationResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\DataOperationResult.T.cs" />
     <Compile Include="Repository\RepositoryOperationResult.T.cs" />
     <Compile Include="Service\ServiceOperationResult.T.cs" />
     <Compile Include="UnitOfWork\IUnitOfWork.cs" />

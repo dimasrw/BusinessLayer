@@ -40,10 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\Collections\CollectionExtensions.cs" />
+    <Compile Include="Helpers\GuidHelper.cs" />
+    <Compile Include="Helpers\IO\DirectoryHelper.cs" />
+    <Compile Include="Helpers\IO\FileHelper.cs" />
+    <Compile Include="Helpers\RandomHelper.cs" />
+    <Compile Include="Helpers\XmlHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Extensions\Collections\" />
     <Folder Include="Extensions\Persistance\" />
   </ItemGroup>
   <ItemGroup>
