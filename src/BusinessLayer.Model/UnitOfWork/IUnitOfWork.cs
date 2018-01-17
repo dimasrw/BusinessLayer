@@ -1,4 +1,5 @@
 ﻿using System;
+using BusinessLayer.Model.Repository;
 
 namespace BusinessLayer.Model.UnitOfWork
 {
@@ -6,5 +7,7 @@ namespace BusinessLayer.Model.UnitOfWork
     {
         UnitOfWorkOperationResult Commit();
         UnitOfWorkOperationResult Rollback();
+
+        T GetRepository<T>() where T : IRepository;
     }
 }
